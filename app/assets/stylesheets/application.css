@@ -1,15 +1,27 @@
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
+
+ * Это файл манифеста, который будет компилировать в application.css, 
+ * который будет включать в себя все файлы, перечисленные ниже.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
  * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * Любое CSS и SCSS файл в этом каталоге, app/assets/stylesheets, lib/assets/stylesheets,
+ * или vendor/assets/stylesheets плагинов, если таковые имеются, можно ссылаться здесь, 
+ * используя относительный путь. 
  *
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ * Вы можете добавить стили приложений в масштабах этот файл и они появятся в нижней части скомпилированного 
+ * файла, так что вы добавляете стили здесь имеют приоритет над стилями, определенными в любых стилях, 
+ * определенных в других файлах CSS/SCSS в этом каталоге. 
+ * Это, как правило, лучше, чтобы создать новый файл за рамки стиля.
+
  *= require_tree .
  *= require_self
- */
+*/ 

@@ -4,6 +4,7 @@ ruby '2.1.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8' #  '4.2.4'
+gem 'bootstrap-sass', '~> 3.3.5' ########, '2.3.2.0'
 
 group :development, :test do 
 	# Use sqlite3 as the database for Active Record
@@ -26,13 +27,14 @@ group :test do
 
   # Windows: раскомментируйте эти строки.
   gem 'rb-notifu', '0.0.4'
-  gem 'win32console', '1.3.2'
+###  gem 'win32console', '1.3.2' <- is an old gem and not needed in Ruby 2.0
+  gem 'minitest'  #, '~> 5.8.1'
   gem 'wdm', '0.1.0'  
 end
 
 #################################################################
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '>= 3.2' ########, '~> 4.0.3'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '2.7.2' # из книги '2.1.1'	# ранее '>= 1.3.0' #### было !!!!!!!!!!
